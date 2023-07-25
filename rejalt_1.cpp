@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class sk
+class takedata
 {
     private:
     int admin;
@@ -11,7 +11,7 @@ class sk
       return english+maths+science;
    }
    public:
-   int takedata()
+    takedata()
    {
     cout<<"enter admin number:"<<endl;
     cin>>admin;
@@ -33,7 +33,6 @@ class sk
 };
 int main()
 {
-    sk test;
-    test.takedata();
+    takedata test;
     test.showdata();
 }
